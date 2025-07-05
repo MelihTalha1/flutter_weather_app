@@ -22,9 +22,9 @@ class _HomePageState extends State<HomePage> {
   final TextEditingController _cityController = TextEditingController();
   final Constants _constants = Constants();
 
-  static String API_KEY = 'e2be74b99c414aee836144628240405';
+  static String API_KEY = 'api_key';
 
-  String location = 'Nevsehir'; //Default location
+  String location = 'City'; //Default location
   String weatherIcon = 'cloud.png';
   int temperature = 0;
   int windSpeed = 0;
